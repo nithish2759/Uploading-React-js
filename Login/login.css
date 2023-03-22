@@ -1,0 +1,60 @@
+#multi_step_form{
+	background: #e9f1f7;
+	font-family:"Poppins", sans-serif; 
+}
+#wrapper{
+    margin-left: 35%;
+    margin-top: 10%;
+	background: #fff;
+    width:470px;
+    height: 450px;
+    display:flex;
+    flex-direction: column;
+    border-color: #0905f8;
+    border: 2px solid #54B4D3;
+    border-radius: 70px 0px 70px 0px;
+    position: fixed;
+}
+#content{
+    text-align: center;
+}
+h2{
+    color:#54B4D3;
+}
+#mailid{
+    padding: 12px 30px;
+	box-sizing: border-box;
+	border: 2px solid #54B4D3;
+	border-radius: 4px;
+    margin-left: 10%;
+}
+#password{
+    padding: 12px 30px;
+	box-sizing: border-box;
+	border: 2px solid #54B4D3;
+	border-radius: 4px;
+    margin-left: 5%;
+}
+a{
+    color: #0905f8;
+    margin-left: 27%;
+    font-size: x-small;
+}
+#showpass{
+    margin-left:31%;
+    margin-top: 5mm;
+}
+a:hover{
+    color: #fc0b0b;
+}
+#button{
+    background-color: #54B4D3;
+    color: #ffffff;
+    border-color: #54B4D3;
+    font-size: x-large;
+    border-radius: 6px 6px;
+}
+#button:hover{
+    background-color: rgba(41, 97, 97, 0.575);
+    border-color: rgba(41, 97, 97, 0.575);
+}

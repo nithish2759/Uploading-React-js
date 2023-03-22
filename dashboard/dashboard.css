@@ -1,0 +1,97 @@
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+body{
+    background-color: azure;
+    justify-content: center;
+}
+.heading{
+  overflow: hidden;
+  background-color: #54B4D3;
+  color:white;
+  margin-bottom: 5%;
+  text-transform: uppercase;
+  font-size: small;
+  display: flex;
+}
+span{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+h1{
+  margin-left: 40%; 
+  text-align: center;
+}
+.sidenav {
+  display: none;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+.sidenav a {  
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.content{
+    margin-top: 17%;
+    margin-left: 45%;
+}
+.upload{
+  padding: 8px 38px;
+  background-color: #54B4D3;
+  color: white;
+  text-align: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+	border: 0 none;
+	border-radius: 5px;
+	cursor: pointer;
+	min-width: 100px;
+	font: 700 14px/40px 'Roboto', sans-serif;
+	border: 1px solid #54B4D3;
+	text-transform: uppercase;
+	display: inline-block;
+  text-decoration: none;
+}
+.upload:hover{
+  background: #405867;
+	border-color: #405867;
+}
+.digital{
+  padding: 10px 20px;
+  background-color: #54B4D3;
+  color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+	border: 0 none;
+	border-radius: 5px;
+	cursor: pointer;
+	min-width: 100px;
+	font: 700 14px/40px 'Roboto', sans-serif;
+	border: 1px solid #54B4D3;
+	text-transform: uppercase;
+	display: inline-block;
+  text-decoration: none;
+}
+.digital:hover{
+  background: #405867;
+	border-color: #405867;
+} 

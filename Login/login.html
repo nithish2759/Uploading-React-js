@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" type="image/x-icon" href="\images\icon11.png">
+    <title>Login</title>
+    <script src='login.js'></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body class="multi_step_form">
+    <form class="wrapper">
+        <div class="content">
+            <br>
+            <h2>LOGIN</h2>
+            <br>
+            <div>
+                <label for="name">Mail ID :</label>
+                <input class="mailid" type="email" onclick="ValidateEmail(document.form1.text1)" placeholder="abc@example.com" required="required"/>
+            </div>
+            <br><br><br>
+            <div>
+                <label for="password">Password:</label>
+                <input  id="password" type="password" placeholder="Enter a password" name="password" required="required"/>
+            </div>
+            <div>
+                <input class="showpass" type="checkbox" onclick="myFunction()"> Show
+                <a href="\forgot_pass\forgot.html">Forgot Password ?</a>
+                <br><br><br>
+            </div>
+                <button class="button" onclick="loginbtn()">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
